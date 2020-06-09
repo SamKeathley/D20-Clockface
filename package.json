@@ -1,0 +1,31 @@
+{
+  "fitbit": {
+    "appUUID": "41bb03e0-851c-4ad1-9189-0f89aa245577",
+    "appType": "clockface",
+    "appDisplayName": "D20-Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "D20-Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  },
+  "dependencies": {
+    "@fitbit/sdk-cli": "^1.7.1"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
