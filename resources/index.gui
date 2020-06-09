@@ -1,28 +1,30 @@
 <svg class="background">
+  <image href="eyecon.png" />
   <text id="myHour" />
   <text id="myMin" />
   <text id="myDate" />
-  <text id="myMonth" />
+  <text id="myDayName" />
+  <text id="myBattery" />
   <section class="d20">
-    <line x1="137" y1="0" x2="274" y2="75" fill="#13d3f5" stroke-width="4" />
-    <line x1="274" y1="75" x2="274" y2="225" fill="#13d3f5" stroke-width="4" />
-    <line x1="274" y1="225" x2="137" y2="300" fill="#13d3f5" stroke-width="4" />
-    <line x1="137" y1="300" x2="0" y2="225" fill="#13d3f5" stroke-width="4" />
-    <line x1="0" y1="225" x2="0" y2="75" fill="#13d3f5" stroke-width="4" />
-    <line x1="137" y1="0" x2="0" y2="75" fill="#13d3f5" stroke-width="4" />
+    <line x1="137" y1="0" x2="274" y2="75" fill="#00FFFF" stroke-width="4" />
+    <line x1="274" y1="75" x2="274" y2="225" fill="#00FFFF" stroke-width="4" />
+    <line x1="274" y1="225" x2="137" y2="300" fill="#00FFFF" stroke-width="4" />
+    <line x1="137" y1="300" x2="0" y2="225" fill="#00FFFF" stroke-width="4" />
+    <line x1="0" y1="225" x2="0" y2="75" fill="#00FFFF" stroke-width="4" />
+    <line x1="137" y1="0" x2="0" y2="75" fill="#00FFFF" stroke-width="4" />
 
-    <line x1="137" y1="0" x2="226" y2="98" fill="#13d3f5" stroke-width="4" />
-    <line x1="226" y1="98" x2="274" y2="75" fill="#13d3f5" stroke-width="4" />
-    <line x1="49" y1="98" x2="137" y2="0" fill="#13d3f5" stroke-width="4" />
-    <line x1="0" y1="75" x2="49" y2="98" fill="#13d3f5" stroke-width="4" />
-    <line x1="137" y1="247" x2="137" y2="300" fill="#13d3f5" stroke-width="4" />
-    <line x1="0" y1="225" x2="137" y2="247" fill="#13d3f5" stroke-width="4" />
-    <line x1="226" y1="98" x2="49" y2="98" fill="#13d3f5" stroke-width="4" />
+    <line x1="137" y1="0" x2="226" y2="98" fill="#00FFFF" stroke-width="4" />
+    <line x1="226" y1="98" x2="274" y2="75" fill="#00FFFF" stroke-width="4" />
+    <line x1="49" y1="98" x2="137" y2="0" fill="#00FFFF" stroke-width="4" />
+    <line x1="0" y1="75" x2="49" y2="98" fill="#00FFFF" stroke-width="4" />
+    <line x1="137" y1="247" x2="137" y2="300" fill="#00FFFF" stroke-width="4" />
+    <line x1="0" y1="225" x2="137" y2="247" fill="#00FFFF" stroke-width="4" />
+    <line x1="226" y1="98" x2="49" y2="98" fill="#00FFFF" stroke-width="4" />
 
-    <line x1="49" y1="98" x2="0" y2="225" fill="#13d3f5" stroke-width="4" />
-    <line x1="274" y1="225" x2="226" y2="98" fill="#13d3f5" stroke-width="4" />
-    <line x1="137" y1="247" x2="49" y2="98" fill="#13d3f5" stroke-width="4" />
-    <line x1="137" y1="247" x2="274" y2="225" fill="#13d3f5" stroke-width="4" />
-    <line x1="137" y1="247" x2="226" y2="98" fill="#13d3f5" stroke-width="4" />
+    <line x1="49" y1="98" x2="0" y2="225" fill="#00FFFF" stroke-width="4" />
+    <line x1="274" y1="225" x2="226" y2="98" fill="#00FFFF" stroke-width="4" />
+    <line x1="137" y1="247" x2="49" y2="98" fill="#00FFFF" stroke-width="4" />
+    <line x1="137" y1="247" x2="274" y2="225" fill="#00FFFF" stroke-width="4" />
+    <line x1="137" y1="247" x2="226" y2="98" fill="#00FFFF" stroke-width="4" />
    </section>
 </svg>
