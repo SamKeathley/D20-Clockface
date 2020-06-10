@@ -1,3 +1,7 @@
 # Fitbit Versa D20 Clockface   
 
-This is a simple custom clock face using the fitbit OS simulator. This clock face has a D20 background and simply outputs the date and time. No frills.
+This is a simple custom digital watchface for the Fitbit Versa family. This features  a simple D20 background that I made with SVG and only displays the date, time, and battery percentage. All of the art is original.
+
+I build this watchface because I wanted something that was more "me" and I also don't care much about the health statistic aspects of the watch.
+
+![Screenshot](resources/D20Versa.png?raw=true "Screenshot of the watchface")
