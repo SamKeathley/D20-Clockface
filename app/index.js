@@ -33,7 +33,7 @@ clock.ontick = (evt) => {
 let batteryLife = Math.floor(battery.chargeLevel) + "%";
 
 let months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
-let days = ["SUN", "MON", "TUE", "THU", "FRI", "SAT"];
+let days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
 let today = new Date();
 let month = months[today.getMonth()];
