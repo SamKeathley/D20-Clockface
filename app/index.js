@@ -18,7 +18,7 @@ clock.ontick = (evt) => {
   let hours = today.getHours();
   if (preferences.clockDisplay === "12h") {
     // 12h format
-    hours = ("0" + hours % 12 || 12);
+    hours = ("0" + hours % 12 || 12).slice(-2);
   } else {
     // 24h format
     hours = util.zeroPad(hours);
@@ -35,6 +35,7 @@ function updateBattery() {
 
 updateBattery();
 setInterval(updateBattery, 10000);
+
 
 function updateDate() {
   let months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
